@@ -1,25 +1,28 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/anima-os-home-page-square.png
+title: Anima-OS.com
+permalink: projects/anima-os-website
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2015-10-14
 labels:
   - Javascript
-  - Meteor
-  - MongoDB
+  - Jekyll
+  - MaterializeCSS
+  - Moment
   - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Angular
+summary: The Anima project website and development blog.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/anima-os-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Anima's official project website. The design helped me embrace fluid, responsive web design.
+The vast majority of the website is implented using [Jekyll](https://jekyllrb.com/), a microsite alternative to a full fledged CMS.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+The [Team Section](https://www.anima-os.com/team/) utilizes [Angular](https://angular.io/) for the general data binding, [JSON](https://github.com/Anima-OS/Anima-OS.com/blob/master/_data/authors.yml) as a datasource, and [Moment](https://momentjs.com/) for the ``local member time`` display.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+[MaterializeCSS](https://materializecss.com) is used extensively for all styling, the screenshot gallery and tooltips.
+
+Source: <a href="https://github.com/Anima-OS/Anima-OS.com"><i class="large github icon"></i>Anima-OS/Anima-OS.com</a>

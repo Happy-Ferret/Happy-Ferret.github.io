@@ -1,169 +1,183 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
-    "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
-    },
+    "name": "Mark Bauermeister",
+    "label": "Software Engineer",
+    "picture": "https://avatars3.githubusercontent.com/u/1962554?s=460&v=4",
+    "email": "warfan2007@gmail.com",
+    "website": "https://happy-ferret.github.io",
+    "summary": "With a strong background in both systems administration and software development, I'm prepared to take on new challenges and work towards the proliferation of new and exciting technology.",
     "profiles": [
       {
-        "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
-      },
-      {
-        "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "happyferrete",
+        "url": "https://twitter.com/happyferrete"
       },
       {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "network": "google plus",
+        "username": "Mark “Happy-Ferret” Bauermeister",
+        "url": "https://plus.google.com/106898614436652261505"
+      },
+      {
+        "network": "github",
+        "username": "Happy-Ferret",
+        "url": "https://github.com/Happy-Ferret"
+      },
+      {
+        "network": "stack exchange",
+        "username": "user237251",
+        "url": "https://stackexchange.com/users/3876208"
+      },
+      {
+        "network": "firefox",
+        "username": "Happy-Ferret",
+        "url": "https://addons.mozilla.org/en-US/firefox/user/Happy-Ferret"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
+      "name": "Hiking",
+      "keywords": []
     },
     {
-      "name": "data mining",
-      "keywords": [
-      ]
+      "name": "UI/UX Design",
+      "keywords": []
     },
     {
-      "name": "artificial intelligence",
+      "name": "OS Development",
+      "keywords": []
+    },
+    {
+      "name": "Photography",
       "keywords": [
+        "Wildlife",
+        "Landscape",
+        "Architecture"
       ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "German",
+      "fluency": "Professional"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Novice"
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Software Development",
       "level": "",
       "keywords": [
+        "Javascript (ES6)",
+        "XUL/XBL",
         "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Haskell",
+        "Python 2.x/3.x",
+        "Go",
+        "C#",
+        "Rust",
+        "PHP 7"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Common software skills",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Office (Microsoft and Libre)",
+        "Visual Studio",
+        "(neo) VIM",
+        "Windows",
+        "Mac OS X",
+        "GNU/Linux",
+        "Git/SVN/Mercurial",
+        "Corel Draw"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "institution": "Zeppelin Gewerbeschule Konstanz",
+      "area": "Information Technology",
+      "studyType": "Vocational College",
+      "startDate": "2012-09-01",
+      "endDate": "2014-12-01",
       "courses": [
+        "Applied software design",
+        "Systems administration"
       ]
+    },
+    {
+      "institution": "ESO Dresden",
+      "area": "Economics",
+      "studyType": "Private Business College",
+      "startDate": "2008-01-01",
+      "endDate": "2010-01-01",
+      "gpa": "",
+      "courses": []
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Sto SE&CoKGaA",
+      "position": "Software Engineer",
+      "website": "https://www.sto.com/",
+      "startDate": "2015-09-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Led the successful transition of an existing, previously third party managed, code-base to an in-house project.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Code review",
+        "Maintenance of (as well as education in) the internal, git based source control system",
+        "Guidance of an internal team of testers (20+)",
+        "Documentation of the codebase",
+        "Creation of AGILE, Kanban based work processes",
+        "Conception of automated UI, acceptance as well as unit tests",
+        "Creation of a REST based API service",
+        "Conception of a a multiplatform based development approach",
+        "Migration of a Windows 8.1 Store App to Windows 10 and Android",
+        "Creation of several domain specific node.JS and Go based microservices supporting the overall development efforts"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Chamber of Crafts Konstanz",
+      "position": "IT Systems Administrator (training)",
+      "website": "https://www.hwk-konstanz.de/",
+      "startDate": "2012-01-01",
+      "endDate": "2014-02-01",
+      "summary": "Learned valuable skills in the administration of modern, GNU/Linux and Windows based, server systems",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Managed Windows clients as well as a mixture of Windows and GNU/Linux terminal and print servers",
+        "Serviced company-wide PBX",
+        "Maintenance of custom software codebases in Haskell and C#"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Platinum Arts",
+      "position": "Interim Project Lead",
+      "website": "http://www.sandboxgamemaker.com/",
+      "startDate": "2014-01-01",
+      "endDate": "2015-09-01",
+      "summary": "Responsible for the further development of the Platinum Arts Sandbox game engine. An easy to use, multi-platform gaming engine for Windows, MacOSX, GNU/Linux and next generation gaming consoles.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Code review",
+        "Maintenance of the internal, git based source control system",
+        "Issue/feature request tracking",
+        "Community management",
+        "Release packaging",
+        "Management of the Mac OS X and GNU/Linux engine ports"
       ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
     }
   ]
 }
