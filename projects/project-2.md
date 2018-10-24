@@ -16,7 +16,7 @@ labels:
 summary: The Anima project website and development blog.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/anima-os-home-page.png">
+<img class="ui medium right floated rounded image materialboxed" src="../images/anima-os-home-page.png">
 
 Anima's official project website. The design helped me embrace fluid, responsive web design.
 The vast majority of the website is implented using [Jekyll](https://jekyllrb.com/), a microsite alternative to a full fledged CMS.

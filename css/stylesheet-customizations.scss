@@ -28,3 +28,12 @@ body {
   background: #424242!important;
   color: #fff!important;
 }
+
+// Disable max-width for images. Otherwise Materialboxed images will appear warped.
+.ui.image {
+  max-width: none;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+  background: #fff;
+}
