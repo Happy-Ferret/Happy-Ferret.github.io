@@ -38,6 +38,11 @@ body {
   color: #fff!important;
 }
 
+.ui.button {
+  background: #424242!important;
+  color: #fff!important;
+}
+
 // Disable max-width for images. Otherwise Materialboxed images will appear warped.
 .ui.image {
   max-width: none;
