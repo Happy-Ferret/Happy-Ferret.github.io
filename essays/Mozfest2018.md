@@ -14,5 +14,7 @@ labels:
 images:
   - image_path: /images/anima-os-home-page.png
     title: Test
+  - image_path: /images/anima-os-home-page.png
+    title: Test2
 ---
 
