@@ -51,3 +51,12 @@ body {
 .ui.card>.image, .ui.cards>.card>.image {
   background: #fff;
 }
+
+.photo-gallery {
+  position: absolute;
+  right: 25%;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
