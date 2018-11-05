@@ -46,7 +46,7 @@ for my 3 PM pitch. Being so focused on the opportunity to present [Anima](https:
 
 The pitch itself went rather well, alas I was glad I took down a whole slew of notes on my smartphone.
 For 30 minutes (10 minutes per judge) I pitched my OS, answered the judges' burning questions and took notes of the criticism.
-The main one being the lack of a community. A fact that is somewhat disheartening, but sure to change with all the pointers I received in regards to *community engagement best practices*.
+The main point of contention being the clear lack of a community. A fact that is somewhat disheartening, but sure to change with all the pointers I received in regards to *community engagement best practices*.
 
 ## Sunday
 
