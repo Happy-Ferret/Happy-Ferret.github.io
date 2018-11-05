@@ -8,7 +8,11 @@
     </div>
 
     <div class="description">
-      {{ include.page.content | markdownify | strip_html | truncatewords: 40 }}
+      {% if include.page.summary %}
+        {{ include.page.summary }}
+      {% else %}
+        {{ include.page.content | markdownify | strip_html | truncatewords: 40 }}
+      {% endif %}
     </div>
   </div>
 
