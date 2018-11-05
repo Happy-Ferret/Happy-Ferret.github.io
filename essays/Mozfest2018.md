@@ -33,3 +33,17 @@ October 25 through October 29 I, alongside other fellow Mozillians, embarked on 
 **The goal:** Make [AMO](http://addons.mozilla.org/) more engaging.
 
 This post serves as a short but (hopefully) meaningful summary of the events that transpired.
+
+
+## Thursday
+
+## Friday
+
+## Saturday
+
+I arrived relatively late at Ravensbourne University and then spent most of the afternoon preparing
+for my 3 PM pitch. Being so focused on the opportunity to present [Anima](https://happy-ferret.github.io/projects/anima) I unfortunately missed out on the chance to print free custom stickers or posters. A service (I only later found out) was only offered on Saturday.
+
+## Sunday
+
+## Monday
