@@ -47,3 +47,7 @@ for my 3 PM pitch. Being so focused on the opportunity to present [Anima](https:
 ## Sunday
 
 ## Monday
+
+## Conclusion
+
+I had a great time at MozFest, met a number of interesting individuals, engaged with other project owners and, overall really had a blast. I can barely wait for MozFest2019. Fingers crossed I'll be invited again.
