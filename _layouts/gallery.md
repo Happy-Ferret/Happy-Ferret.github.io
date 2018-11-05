@@ -1,0 +1,16 @@
+---
+layout: essays
+---
+
+<div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
+  <h1>{{ page.title }}</h1>
+  <span class="date">{{ page.date | date_to_string }}</span>
+  <hr>
+  {{ content }}
+</div>
+
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" class="ui medium right floated rounded image materialboxed"/></li>
+  {% endfor %}
+</ul>
