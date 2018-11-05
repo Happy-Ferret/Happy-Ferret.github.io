@@ -41,8 +41,12 @@ This post serves as a short but (hopefully) meaningful summary of the events tha
 
 ## Saturday
 
-I arrived relatively late at Ravensbourne University and then spent most of the afternoon preparing
-for my 3 PM pitch. Being so focused on the opportunity to present [Anima](https://happy-ferret.github.io/projects/anima), I unfortunately missed out on the chance to print free custom stickers or posters. A service (I only later found out) was only offered on Saturday 😿.
+I arrived relatively late at Ravensbourne University and spent most of the afternoon preparing
+for my 3 PM pitch. Being so focused on the opportunity to present [Anima](https://happy-ferret.github.io/projects/anima), I unfortunately missed out on the chance to print free custom stickers or posters. A service (I later found out) was only offered on Saturday 😿.
+
+The pitch itself went rather well, alas I was glad I took down a whole slew of notes on my smartphone.
+For 30 minutes (10 minutes per judge) I pitched my OS, answered the judges' burning questions and took notes of the criticism.
+The main one being the lack of a community. A fact that is somewhat disheartening, but sure to change with all the pointers I received in regards to *community engagement best practices*.
 
 ## Sunday
 
