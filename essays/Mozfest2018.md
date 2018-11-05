@@ -26,4 +26,9 @@ images:
     title: Test6
 ---
 
-"**L**orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+As a volunteer for Mozilla AMO (Addons), Mozilla invited me to MozFest this year.
+October 25 through October 29 I, alongside other fellow Mozillians, embarked on an adventure through South East London, enjoying all the pecularities the city has to offer and engaging in a fact finding mission. 
+
+**The goal:** Make [AMO](http://addons.mozilla.org/) more engaging.
+
+This post serves as a short but (hopefully) meaningful summary of the events that transpired.
