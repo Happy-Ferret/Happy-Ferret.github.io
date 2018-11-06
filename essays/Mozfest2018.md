@@ -25,6 +25,7 @@ images:
   - image_path: /images/anima-os-home-page.png
     title: Test5
 summary: A summary of my experiences at and around MozFest2018 in London.
+draft: true
 ---
 
 As a volunteer for Mozilla AMO (Addons), Mozilla invited me to MozFest this year.
@@ -63,3 +64,30 @@ I had a great time at MozFest, met a number of interesting individuals, engaged 
 Using Google Map's regular offline road maps was an absolute hell.
 - If you happen to miss any basic items on your travels, Poundland (the UK's equivalent to Dollar Tree), Boots (similar to Rite Aid) and Marks & Spencer (decently priced clothing) should be your primary sources.
 - Cab rides in London are fairly expensive. The London public transport system offers an affordable alternative, with most tube rides selling for less than 3 GBP. In some rare instances (I'd advise against taking the tube with a full set of luggage. Especially during peak hours) the luxury of a cab ride may well off-set the price though.
+
+<div class="ui list">
+  <div class="item">
+    <i class="users icon"></i>
+    <div class="content">
+      Semantic UI
+    </div>
+  </div>
+  <div class="item">
+    <i class="marker icon"></i>
+    <div class="content">
+      New York, NY
+    </div>
+  </div>
+  <div class="item">
+    <i class="mail icon"></i>
+    <div class="content">
+      <a href="mailto:jack@semantic-ui.com">jack@semantic-ui.com</a>
+    </div>
+  </div>
+  <div class="item">
+    <i class="linkify icon"></i>
+    <div class="content">
+      <a href="http://www.semantic-ui.com">semantic-ui.com</a>
+    </div>
+  </div>
+</div>
