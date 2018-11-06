@@ -22,6 +22,8 @@ images:
     title: Test4
   - image_path: /images/anima-os-home-page.png
     title: Test5
+  - image_path: /images/anima-os-home-page.png
+    title: Test5
 summary: A summary of my experiences at and around MozFest2018 in London.
 ---
 
