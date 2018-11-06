@@ -27,7 +27,7 @@ summary: What I've learned on my travels through London.
 ---
 
 Here are a couple of things I've learned on my recent trip to London 
-(**see my [post](/Mozfest2018) about MozFest2018 for more information and photos**)
+(**see my [post](/essays/Mozfest2018) about MozFest2018 for more information and photos**)
 
 {:.ui .list}
 * Unless you want to invest in a data plan, make sure to download an app that supports offline pedestrian maps.
