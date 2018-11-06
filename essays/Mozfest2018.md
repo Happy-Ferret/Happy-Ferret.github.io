@@ -56,3 +56,12 @@ The main point of contention being the clear lack of a community. A fact that is
 ## Conclusion
 
 I had a great time at MozFest, met a number of interesting individuals, engaged with other project owners and, overall really had a blast. I can barely wait for MozFest2019. Fingers crossed I'll be invited again.
+
+## Travel tips
+
+* Unless you want to invest in a data plan, make sure to download an app that supports offline pedestrian maps.
+Using Google Map's regular offline road maps was an absolute hell.
+
+* If you happen to miss any basic items on your travels, Poundland (the UK's equivalent to Dollar Tree), Boots (similar to Rite Aid) and Marks & Spencer (decently priced clothing) should be your primary sources.
+
+* Cab rides in London are fairly expensive. The London public transport system offers an affordable alternative, with most tube rides selling for less than 3 GBP. In some rare instances (I'd advise against taking the tube with a full set of luggage. Especially during peak hours) the luxury of a cab ride may well off-set the price though.
