@@ -25,7 +25,6 @@ images:
   - image_path: /images/anima-os-home-page.png
     title: Test5
 summary: A summary of my experiences at and around MozFest2018 in London.
-draft: true
 ---
 
 As a volunteer for Mozilla AMO (Addons), Mozilla invited me to MozFest this year.
