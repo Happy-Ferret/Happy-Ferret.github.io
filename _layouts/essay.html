@@ -27,7 +27,7 @@ layout: essays
 const gitalk = new Gitalk({
     clientID: '{{ site.comments.gitment.clientId }}',
     clientSecret: '{{ site.comments.gitment.clientSecret }}'
-    id: '{{ page.title.replace(/[^\w\s]/gi, '').substring(0, 49) }}',
+    id: location.pathname,
     owner: 'Happy-Ferret',
     repo: 'Happy-Ferret.github.io.Comments',
     admin: ['Happy-Ferret']
