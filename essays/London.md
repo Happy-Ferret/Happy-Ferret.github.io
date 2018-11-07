@@ -34,3 +34,9 @@ Here are a couple of things I've learned on my recent trip to London
 Using Google Map's regular offline road maps was an absolute disaster.
 * If you happen to miss any basic items on your travels, Poundland (the UK's equivalent to Dollar Tree), Boots (similar to Rite Aid) and Marks & Spencer (decently priced clothing) should be your primary sources.
 * Cab rides in London are fairly expensive. The London public transport system offers an affordable alternative, with most tube rides selling for less than 3 GBP. In some rare instances (I'd advise against taking the tube with a full set of luggage. Especially during peak hours) the luxury of a cab ride may well off-set the price though.
+* [Oyster Cards](https://www.visitbritainshop.com/world/london-visitor-oyster-card/) are the most efficient and cost effective way of traversing the London Underground.
+
+{:.ui .list}
+* When leaving from London City Airport, make sure to arrive no sooner than 2 hours prior to departure.
+This particular airport is incredibly small and crowded, and won't accept baggage drops earlier than 2 hours before a flight.
+* Ignore the café near the check-in booths. There is fresher and far more affordable food available at a stand approximately 100 feet after the security checkpoint (right after the electronics stand).
