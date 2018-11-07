@@ -14,23 +14,3 @@ layout: essays
     <li><img src="{{ image.image_path }}" alt="{{ image.title}}" class="ui medium floated rounded image materialboxed"/></li>
   {% endfor %}
 </ul>
-
-<ul>
-   {% if site.comments %}
-     <div id="gitalk-container"></div>
-   {% endif %}
-</ul>
-  
-
-
-<script>
-const gitalk = new Gitalk({
-    clientID: '{{ site.comments.gitment.clientId }}',
-    clientSecret: '{{ site.comments.gitment.clientSecret }}',
-    id: '{{ page.title }}',
-    owner: 'Happy-Ferret',
-    repo: 'Happy-Ferret.github.io.Comments',
-    admin: ['Happy-Ferret']
-});
-gitalk.render(document.getElementById('gitalk-container'));
-</script>
