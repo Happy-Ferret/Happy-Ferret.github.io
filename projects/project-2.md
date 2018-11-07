@@ -25,4 +25,4 @@ The [Team Section](https://www.anima-os.com/team/) utilizes [Angular](https://an
 
 [MaterializeCSS](https://materializecss.com) is used extensively for all styling, the screenshot gallery and tooltips.
 
-Source: <a href="https://github.com/Anima-OS/Anima-OS.com"><i class="large github icon"></i>Anima-OS/Anima-OS.com</a>
+<a href="https://github.com/Anima-OS/Anima-OS.com"><i class="large github icon"></i>Source</a>

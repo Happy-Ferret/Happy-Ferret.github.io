@@ -19,6 +19,6 @@ summary: An OS for the modern internet user.
 
 Anima is a modern, graphical operating system designed around the needs of the modern internet user.
 
-Home: <a href="https://www.anima-os.com"><i class="large home icon"></i>Anima-OS.com</a>
+<a href="https://www.anima-os.com"><i class="large home icon"></i>Homepage</a>
 
-Source: <a href="https://github.com/Anima-OS"><i class="large github icon"></i>Anima-OS</a>
+<a href="https://github.com/Anima-OS"><i class="large github icon"></i>Source</a>
