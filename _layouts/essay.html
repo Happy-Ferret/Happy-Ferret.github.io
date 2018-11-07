@@ -15,18 +15,18 @@ layout: essays
   {% endfor %}
 </ul>
 
-   {% if page.comments and site.comments and site.comments.gitment %}
+   {% if site.comments %}
      <div id="gitment-comments"></div>
    {% endif %}
 
 <script>
 const gitment = new Gitment({
-    id: '<%= page.title.replace(/[^\w\s]/gi, '').substring(0, 49) %>',
+    id: '{{ page.title.replace(/[^\w\s]/gi, '').substring(0, 49) }}',
     owner: 'Happy-Ferret',
     repo: 'Happy-Ferret.github.io.Comments',
     oauth: {
-        client_id: '<%= theme.comments.gitment.clientId %>',
-        client_secret: '<%= theme.comments.gitment.clientSecret %>'
+        client_id: '{{ site.comments.gitment.clientId }}',
+        client_secret: '{{ site.comments.gitment.clientSecret }}'
     }
 });
 gitment.render(document.getElementById('gitment-comments'));
