@@ -36,6 +36,7 @@ Using Google Map's regular offline road maps was an absolute disaster.
 * Cab rides in London are fairly expensive. The London public transport system offers an affordable alternative, with most tube rides selling for less than 3 GBP. In some rare instances (I'd advise against taking the tube with a full set of luggage. Especially during peak hours) the luxury of a cab ride may well off-set the price though.
 * [Oyster Cards](https://www.visitbritainshop.com/world/london-visitor-oyster-card/) are the most efficient and cost effective way of traversing the London Underground.
 
+
 {:.ui .list}
 * When leaving from London City Airport, make sure to arrive no sooner than 2 hours prior to departure.
 This particular airport is incredibly small and crowded, and won't accept baggage drops earlier than 2 hours before a flight.
