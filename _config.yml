@@ -25,3 +25,7 @@ rouge-theme: igorpro
 markdown: kramdown
 include: [_data]
 
+comments:
+  gitment: 
+    clientId: 6c3f8955de841d59afc7
+    clientSecret: 186dee148b0d9c4b35b90f97e82ba9349ee66586
