@@ -15,10 +15,12 @@ layout: essays
   {% endfor %}
 </ul>
 
+<ul>
    {% if site.comments %}
      <div id="gitment-comments"></div>
    {% endif %}
-
+</ul>
+  
 <script>
 const gitment = new Gitment({
     id: '{{ page.title.replace(/[^\w\s]/gi, '').substring(0, 49) }}',
