@@ -52,6 +52,11 @@ body {
   background: #fff;
 }
 
+.image {
+  image-rendering: crisp-edges; 
+  image-rendering: pixelated;
+}
+
 .photo-gallery {
   position: relative;
   left: 25%;
