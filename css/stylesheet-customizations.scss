@@ -48,6 +48,11 @@ body {
   max-width: none;
 }
 
+.ui.floated.image, .ui.floated.images {
+  float: none!important;
+  margin-bottom: 0!important;
+}
+
 .ui.card>.image, .ui.cards>.card>.image {
   background: #fff;
 }
