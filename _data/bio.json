@@ -4,6 +4,7 @@
     "label": "Software Engineer",
     "picture": "https://avatars3.githubusercontent.com/u/1962554?s=460&v=4",
     "email": "warfan2007@gmail.com",
+    "rss": "http://happy-ferret.github.io/feed.xml",
     "website": "https://happy-ferret.github.io",
     "summary": "With a strong background in both systems administration and software development, I'm prepared to take on new challenges and work towards the proliferation of new and exciting technology.",
     "profiles": [
@@ -11,11 +12,6 @@
         "network": "twitter",
         "username": "happyferrete",
         "url": "https://twitter.com/happyferrete"
-      },
-      {
-        "network": "google plus",
-        "username": "Mark “Happy-Ferret” Bauermeister",
-        "url": "https://plus.google.com/106898614436652261505"
       },
       {
         "network": "github",

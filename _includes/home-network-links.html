@@ -1,9 +1,89 @@
 <!-- Used by theme-home-builtin-1,2,3 -->
 
 {% for profile in site.data.bio.basics.profiles %}
-   <a href="{{ profile.url }}"> <i class="big {{ profile.network | downcase }} icon icon-color"></i> </a>
+<a href="{{ profile.url }}"> <i class="big {{ profile.network | downcase }} icon icon-color"></i> </a>
 {% endfor %}
 
 {% if site.data.bio.basics.email %}
-  <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color"></i> </a>
+<a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color"></i> </a>
 {% endif %}
+
+{% if site.data.bio.basics.rss %}
+<i class="big rss square icon icon-color test" style="color:orange; position:absolute; right:0;cursor:pointer;"></i>
+{% endif %}
+
+<div class="ui modal" style="overflow:hidden;">
+  <i class="close icon"></i>
+  <div class="header">
+    Subscribe to my blog
+  </div>
+  <div class="content">
+    <div class="description">
+      <div class="ui header">Stay up-to-date.</div>
+      <p><a href="https://twitter.com/happyferrete">
+          Follow me on Twitter
+          <i class="big twitter icon icon-color"></i></a>
+      </p>
+      <p><a href="https://www.facebook.com/Marks-Blog-453651935404194/">
+          Follow my Facebook Page
+          <i class="big facebook icon icon-color"></i></a>
+      </p>
+      <p>
+        <div class="ui small action input">
+          <input type="text" class="ui input copyInput"
+            value="https://happy-ferret.github.io/feed.xml" style="font-size: 12px;">
+            <button class="ui labeled icon button copyToken">
+                <i class="clipboard icon"></i>
+                Copy
+              </button>
+        </div>
+      </p>
+    </div>
+  </div>
+  <div class="actions">
+    <div class="ui positive right labeled icon button">
+      Understood!
+      <i class="checkmark icon"></i>
+      <br />
+    </div>
+  </div>
+</div>
+
+<script>
+  $('.ui.modal')
+    .modal('attach events', '.test', 'show')
+    ;
+
+  var popupTimer;
+
+  function delayPopup(popup) {
+    popupTimer = setTimeout(function () { $(popup).popup('hide') }, 4200);
+  }
+
+  $(document).ready(function () {
+    $('.copyToken').click(function () {
+      clearTimeout(popupTimer);
+
+      var $input = $(this).closest('div').find('.copyInput');
+
+      /* Select the text field */
+      $input.select();
+
+      /* Copy the text inside the text field */
+      document.execCommand("copy");
+
+      $(this)
+        .popup({
+          title: 'Successfully copied to clipboard!',
+          content: 'Add this link to an RSS reader of your choice',
+          on: 'manual',
+          exclusive: true
+        })
+        .popup('show')
+        ;
+
+      // Hide popup after 5 seconds
+      delayPopup(this);
+    });
+  });
+</script>
