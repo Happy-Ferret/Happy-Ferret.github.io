@@ -10,7 +10,7 @@ labels:
   - 8-Bit
   - Amiga
   - DOS
-images:
+pixel-art:
   - image_path: /images/fountainWIP.gif
     title: Fountain with early color cycling animation (WIP)
 summary: Some of my early pixel art
