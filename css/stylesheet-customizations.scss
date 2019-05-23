@@ -12,16 +12,16 @@ body {
 
 // Customize the menubar color
 .ui.menu {
-  background: #212121!important;
+  background: #212121 !important;
 }
 
 .ui.menu .item {
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .ui.menu .active.item {
-  background: rgba(255,255,255,.1)!important;
-  color: #fff!important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
 }
 
 // Customize the home page icon colors
@@ -30,17 +30,17 @@ body {
 }
 
 .ui.card {
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .ui.basic.button {
-  background: #424242!important;
-  color: #fff!important;
+  background: #424242 !important;
+  color: #fff !important;
 }
 
 .ui.button {
-  background: #424242!important;
-  color: #fff!important;
+  background: #424242 !important;
+  color: #fff !important;
 }
 
 // Disable max-width for images. Otherwise Materialboxed images will appear warped.
@@ -48,17 +48,19 @@ body {
   max-width: none;
 }
 
-.ui.floated.image, .ui.floated.images {
-  float: none!important;
-  margin-bottom: 0!important;
+.ui.floated.image,
+.ui.floated.images {
+  float: none !important;
+  margin-bottom: 0 !important;
 }
 
-.ui.card>.image, .ui.cards>.card>.image {
+.ui.card > .image,
+.ui.cards > .card > .image {
   background: #fff;
 }
 
 .pixelated {
-  image-rendering: crisp-edges; 
+  image-rendering: crisp-edges;
   image-rendering: pixelated;
 }
 
@@ -72,13 +74,30 @@ body {
   align-content: space-between;
 }
 
+.bmc-button img {
+  box-shadow: none !important;
+  border: none !important;
+  vertical-align: middle !important;
+}
+
+.bmc-button {
+  font-family: "Cookie", cursive !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  -o-transition: 0.3s all linear !important;
+  -webkit-transition: 0.3s all linear !important;
+  -moz-transition: 0.3s all linear !important;
+  -ms-transition: 0.3s all linear !important;
+  transition: 0.3s all linear !important;
+}
+
 // Overwrite MaterializeCSS navigation height, in order to restore responsiveness.
 nav {
-  height: 100%!important; 
+  height: 100% !important;
 }
 
 .gt-btn {
-  border: 1px solid #424242!important;
-  background: #424242!important;
-  color: #fff!important;
+  border: 1px solid #424242 !important;
+  background: #424242 !important;
+  color: #fff !important;
 }

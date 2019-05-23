@@ -22,5 +22,11 @@
     <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">Essays ({{ num_essays }})</a>
     {% endif %}
     <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">{{ site.bio-page-label }}</a>
+    {% if site.data.bio.basics.bmc %}
+    <a class="bmc-button" target="_blank" href="{{ site.data.bio.basics.bmc }}"><img
+        src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee"><span
+        style="margin-left:5px">Tip Jar</span>
+    </a>
+    {% endif %}
   </nav>
 </div>
