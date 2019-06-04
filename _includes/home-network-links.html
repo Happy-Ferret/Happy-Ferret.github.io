@@ -5,14 +5,35 @@
 {% endfor %}
 
 {% if site.data.bio.basics.email %}
-<a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color"></i> </a>
+<i class="big mail square icon icon-color contact" style="cursor:pointer;"></i> </a>
 {% endif %}
 
 {% if site.data.bio.basics.rss %}
 <i class="big rss square icon icon-color test" style="color:orange; position:absolute; right:0;cursor:pointer;"></i>
 {% endif %}
 
-<div class="ui modal" style="overflow:hidden;">
+<div class="ui modal contact" style="overflow:hidden; max-height: 100vh;">
+  <i class="close icon"></i>
+  <div class="header">
+    Contact
+  </div>
+  <div class="scrolling content">
+    <div class="description">
+      <!-- <form id="contactForm"> -->
+        {% include contact.html %}
+      <!-- </form> -->
+    </div>
+  </div>
+  <div class="actions">
+    <button class="ui positive labeled icon button" type="submit" form="contactForm">
+      Submit
+      <i class="checkmark icon"></i>
+      <br />
+    </button>
+  </div>
+</div>
+
+<div class="ui modal rss" style="overflow:hidden;">
   <i class="close icon"></i>
   <div class="header">
     Subscribe to my blog
@@ -41,7 +62,7 @@
     </div>
   </div>
   <div class="actions">
-    <div class="ui positive right labeled icon button">
+    <div class="ui positive labeled icon button">
       Understood!
       <i class="checkmark icon"></i>
       <br />
@@ -50,9 +71,11 @@
 </div>
 
 <script>
-  $('.ui.modal')
-    .modal('attach events', '.test', 'show')
-    ;
+  $('.ui.modal.rss')
+    .modal('attach events', '.test', 'show');
+
+  $('.ui.modal.contact')
+    .modal('attach events', '.contact', 'show');
 
   var popupTimer;
 

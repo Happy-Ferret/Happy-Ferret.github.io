@@ -1,0 +1,105 @@
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#contactForm").validate({ meta: "validate" });
+    $.getJSON("https://api.ipify.org/?format=json", function (data) { document.getElementById('entry_4').value = data.ip; })
+  });
+
+  var submitted = false;
+
+  jQuery.extend(jQuery.validator.messages, {
+    required: "Please enter all information marked as required",
+    email: "Please provide a valid email address"
+  });
+
+  (function () {
+    window.onload += function () {
+      var divs = document.getElementById('ss-form').
+        getElementsByTagName('div');
+      var numDivs = divs.length;
+      for (var j = 0; j < numDivs; j++) {
+        if (divs[j].className == 'errorbox-bad') {
+          divs[j].lastChild.firstChild.lastChild.focus();
+          return;
+        }
+      }
+      for (var i = 0; i < numDivs; i++) {
+        var div = divs[i];
+        if (div.className == 'ss-form-entry' &&
+          div.firstChild &&
+          div.firstChild.className == 'ss-q-title') {
+          div.lastChild.focus();
+          return;
+        }
+      }
+    }
+  })();
+</script>
+
+<iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted)
+{window.location='thank-you.html';}" style="display: none;"></iframe>
+
+<div class="ss-form-container">
+  <div class="ss-form-heading">
+    <h1 class="ss-form-title">
+
+    </h1>
+    <hr class="ss-email-break" style="display: none;" />
+    <div class="ss-required-asterisk" style="color: #f1c232;">
+      &nbsp; *Required</div>
+  </div>
+  <div class="ss-form">
+    <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dFlMZkJXMFZXSmF1a1Q4MXZja3JpOVE6MQ&amp;ifq"
+      id="contactForm" method="POST" onsubmit="submitted=true;" target="hidden_iframe">
+      <br />
+      <div class="errorbox-good">
+        <div class="ss-item ss-item-required ss-text">
+          <div class="ss-form-entry">
+            &nbsp; <label class="ss-q-title" for="entry_0">Subject
+              <span class="ss-required-asterisk" style="color: #f1c232;">*</span></label><br />
+            &nbsp; <label class="ss-q-help" for="entry_0"></label><input class="required" id="entry_0"
+              name="entry.0.single" type="text" value="" /></div>
+        </div>
+      </div>
+      <br />
+      <div class="errorbox-good">
+        <div class="ss-item ss-item-required ss-text">
+          <div class="ss-form-entry">
+            &nbsp; <label class="ss-q-title" for="entry_1">Your email-address
+              <span class="ss-required-asterisk" style="color: #f1c232;">*</span></label>
+            <label class="ss-q-help" for="entry_1"></label>
+            <br />
+            &nbsp; <input class="email required" id="entry_1" name="entry.1.single" type="text" value="" /></div>
+        </div>
+      </div>
+      <br />
+      <div class="errorbox-good">
+        <div class="ss-item  ss-text">
+          <div class="ss-form-entry">
+            &nbsp; <label class="ss-q-title" for="entry_2">Your name
+            </label>
+            <label class="ss-q-help" for="entry_2"></label>
+            <br />
+            &nbsp; <input class="ss-q-short" id="entry_2" name="entry.2.single" type="text" value="" /></div>
+        </div>
+      </div>
+      <br />
+      &nbsp; <label class="ss-q-title" for="entry_3">Enquiry
+        <span class="ss-required-asterisk" style="color: #f1c232;">*</span></label><br />
+      <div class="errorbox-good">
+        <div class="ss-item ss-item-required ss-paragraph-text">
+          <div class="ss-form-entry">
+            &nbsp;<label class="ss-q-help" for="entry_3"></label>
+            <textarea class="required" cols="75" id="entry_3" name="entry.3.single" rows="8"
+              style="height: 168px; width: 496px;"></textarea></div>
+        </div>
+      </div>
+      <br />
+      <input id="entry_4" name="entry.1398243125" type="hidden" />
+      <input name="pageNumber" type="hidden" value="0" />
+      <input name="backupCache" type="hidden" value="" />
+    </form>
+  </div>
+</div>

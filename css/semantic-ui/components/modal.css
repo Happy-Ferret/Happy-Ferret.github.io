@@ -347,9 +347,14 @@
 ---------------*/
 
 
-/* A modal that cannot fit on the page */
+/* Scrolling Dimmer */
 .scrolling.dimmable.dimmed {
   overflow: hidden;
+}
+.scrolling.dimmable > .dimmer {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 .scrolling.dimmable.dimmed > .dimmer {
   overflow: auto;
@@ -359,11 +364,10 @@
   position: fixed;
 }
 .modals.dimmer .ui.scrolling.modal {
-  position: static !important;
-  margin: 3.5rem auto !important;
+  margin: 1rem auto;
 }
 
-/* undetached scrolling */
+/* Undetached Scrolling */
 .scrolling.undetached.dimmable.dimmed {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -374,7 +378,13 @@
 .scrolling.undetached.dimmable .ui.scrolling.modal {
   position: absolute;
   left: 50%;
-  margin-top: 3.5rem !important;
+  margin-top: 1rem !important;
+}
+
+/* Scrolling Content */
+.ui.modal .scrolling.content {
+  max-height: calc(80vh - 10em);
+  overflow: auto;
 }
 
 /* Coupling with Sidebar */
