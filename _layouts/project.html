@@ -9,9 +9,9 @@ layout: projects
 
 <ul class="photo-gallery">
   {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" class="ui medium floated rounded image materialboxed"/></li>
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" data-caption="{{ image.title }}" class="ui medium floated rounded image materialboxed"/></li>
   {% endfor %}
   {% for image in page.pixel-art %}
-  <li><img src="{{ image.image_path }}" alt="{{ image.title}}" class="ui medium floated rounded image pixelated materialboxed"/></li>
+  <li><img src="{{ image.image_path }}" alt="{{ image.title}}" data-caption="{{ image.title }}" class="ui medium floated rounded image pixelated materialboxed"/></li>
   {% endfor %}
 </ul>

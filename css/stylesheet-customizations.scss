@@ -101,3 +101,19 @@ nav {
   background: #424242 !important;
   color: #fff !important;
 }
+
+.tooltip:after {
+  content: "?";
+  vertical-align: super;
+  color: #4183c4;
+  font-size: 80%;
+}
+
+.tooltip {
+  cursor: help;
+  font-weight: 700;
+}
+
+p {
+  display: inline-block;
+}
