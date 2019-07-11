@@ -9,6 +9,19 @@ layout: posts
   {{ content }}
 </div>
 
+{% if page.tags.size > 0 %}
+<div class="blog-tags">
+  Tags:
+  {% if site.link-tags %}
+  {% for tag in page.tags %}
+    <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+  {% endfor %}
+  {% else %}
+    {{ page.tags | join: ", " }}
+  {% endif %}
+</div>
+{% endif %}
+
 <ul class="photo-gallery">
   {% for image in page.images %}
     <li><img src="{{ image.image_path }}" alt="{{ image.title}}" data-caption="{{ image.title }}" class="ui medium floated rounded image materialboxed"/></li>
@@ -17,3 +30,5 @@ layout: posts
   <li><img src="{{ image.image_path }}" alt="{{ image.title}}" data-caption="{{ image.title }}" class="ui medium floated rounded image pixelated materialboxed"/></li>
   {% endfor %}
 </ul>
+
+{% include open-embed.html %}
