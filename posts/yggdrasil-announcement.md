@@ -4,7 +4,7 @@ type: post
 comments: true
 title: Introducing Yggdrasil (and Rosetta-Go/Rosetta-TS)
 # All dates must be YYYY-MM-DD format!
-date: 2019-08-25 15:10:00 +0200
+date: 2019-08-25 17:10:00 +0200
 labels:
   - Interactive Fiction
   - Adventure Games
