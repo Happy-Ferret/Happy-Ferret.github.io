@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+image: https://raw.githubusercontent.com/happy-ferret/sable-theme/master/logo.png
 title: Sable
 permalink: projects/sable
 # All dates must be YYYY-MM-DD format!
