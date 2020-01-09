@@ -1,5 +1,6 @@
 ---
 layout: essay
+draft: true
 type: essay
 title: How I fell in love with a dangerous, fraudulent narcissist, and how she (almost) destroyed me
 # All dates must be YYYY-MM-DD format!
