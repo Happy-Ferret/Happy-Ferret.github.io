@@ -23,6 +23,7 @@ A user may switch between this behavior (i e display either the minutes inside t
 by clicking on the icon and checking/unchecking **"Reverse display"**.
 
 #### Future features:
+
 {:.ui .list}
 * Custom colors for foreground and background.
 
