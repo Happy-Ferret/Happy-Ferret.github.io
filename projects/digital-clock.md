@@ -30,6 +30,3 @@ by clicking on the icon and checking/unchecking **"Reverse display"**.
 <a href="https://addons.mozilla.org/en-US/firefox/addon/digitalclock/"><i class="large firefox icon"></i>Addon Page</a>
 
 <a href="https://github.com/Anima-OS/digital-clock"><i class="large github icon"></i>Source</a>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tlLwd2tZMak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
