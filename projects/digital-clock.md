@@ -26,6 +26,7 @@ by clicking on the icon and checking/unchecking **"Reverse display"**.
 
 {:.ui .list}
 * Custom colors for foreground and background.
+* Option to switch between military time and 12h display.
 
 <a href="https://addons.mozilla.org/en-US/firefox/addon/digitalclock/"><i class="large firefox icon"></i>Addon Page</a>
 
