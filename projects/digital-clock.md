@@ -22,7 +22,9 @@ Part of the time is rendered inside a dynamic image whereas the other part is di
 A user may switch between this behavior (i e display either the minutes inside the badge — as is the default — or the hour) 
 by clicking on the icon and checking/unchecking **"Reverse display"**.
 
-Future features:
+#### Future features:
+
+* Custom colors for foreground and background.
 
 <a href="https://addons.mozilla.org/en-US/firefox/addon/digitalclock/"><i class="large firefox icon"></i>Addon Page</a>
 
