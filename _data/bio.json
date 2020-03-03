@@ -175,6 +175,18 @@
         "Release packaging",
         "Management of the Mac OS X and GNU/Linux engine ports"
       ]
+    },
+    {
+      "organization": "Mozilla (AMO)",
+      "position": "Volunteer Add-on Reviewer",
+      "website": "https://addons.mozilla.org/",
+      "startDate": "2018-09-01",
+      "endDate": "2019-03-01",
+      "summary": "Responsible for regular/daily quality control of submitted 3rd party addons.",
+      "highlights": [
+        "Quality review",
+        "MozFest2018 contributor"
+      ]
     }
   ]
 }
